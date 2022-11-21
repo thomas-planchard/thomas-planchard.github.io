@@ -1,0 +1,24 @@
+        body {
+            background-color: #f5f5f5;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        .container {
+            width: 80%;
+            margin: 0 auto;
+            background-color: #fff;
+            padding: 20px;
+        }
+        .skills-table,th,td{
+            border: 1px solid blueviolet;
+            border-collapse: collapse;
+        }
+
+        img:hover{
+            transform: rotate(40deg);
+            
+        }
+
+        img{
+            transition: transform 1s;
+        }
+        
